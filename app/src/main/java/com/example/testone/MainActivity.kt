@@ -20,6 +20,9 @@ class MainActivity : AppCompatActivity() {
         }
 
         //4
+        //5
+        //6
+        //7
     }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
