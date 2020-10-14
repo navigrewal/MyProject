@@ -19,7 +19,6 @@ class MainActivity : AppCompatActivity() {
                     .setAction("Action", null).show()
         }
 
-        //4
     }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
