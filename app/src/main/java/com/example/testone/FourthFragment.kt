@@ -25,8 +25,14 @@ class FourthFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
+        view.findViewById<Button>(R.id.button_add).setOnClickListener {
+            Log.e("button clicked","success")
+            findNavController().createDeepLink()
+        }
+
         view.findViewById<Button>(R.id.textview_second).setOnClickListener {
             Log.e("Text clicked","done")
+            findNavController().createDeepLink()
         }
     }
 }
